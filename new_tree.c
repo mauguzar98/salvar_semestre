@@ -49,7 +49,7 @@ int main(void)
                 break;
             case 2:
                 Nodos(raiz, &nodos);
-                printf("El numero de nodos es %d\n", nodos);
+                printf("El numero de nodos es %d.\n", nodos);
                 break;
             case 3:
                 Altura(raiz, &altura);
@@ -57,7 +57,7 @@ int main(void)
                 break;
             case 4:
                 Hojas(raiz, &hojas);
-                printf("El numero de hojas es %d\n", hojas);
+                printf("El numero de hojas es %d.\n", hojas);
                 break;
             case 5:
                 Borrar(raiz);
